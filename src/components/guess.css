@@ -11,6 +11,7 @@
 input {
     width: 300px;
     background-color: #50597b;
+    transition: color 2s;
     color: #8e8885;
     border: black 1px solid;
     border-radius: 3px;
@@ -24,11 +25,14 @@ input {
 
 button {
     width: 300px;
+    transition: color 2s, background-color 2s;
+    
     background-color: #1f253d;
     border: #1f253d 1px solid;
     border-radius: 3px;
     font-size: 30px;
     text-align: center;
+
     color:#8e8885;
     padding-top: 8px;
     padding-bottom: 8px;
@@ -43,4 +47,12 @@ span{
     color: #f39921;
     font-weight: strong;
     font-size: 40px;
+}
+
+button:hover{
+    transition: background-color 2s, color 2s;
+    background-color: #CC324B;
+    color: white;
+   
+
 }
