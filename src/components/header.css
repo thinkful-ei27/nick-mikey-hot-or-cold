@@ -1,0 +1,21 @@
+h1{ color :white;}
+
+.What{
+  position : absolute;
+  display: inline-block;
+  left: 20px;
+
+}
+
+.newGame{
+ display: inline-block;
+ position : absolute;
+ right: 20px
+
+}
+
+a{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}

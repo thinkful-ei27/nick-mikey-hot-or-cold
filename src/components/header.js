@@ -1,10 +1,11 @@
 import React from 'react';
+import './header.css'
 
 export default function Header(){
     return (<header>
       <nav>
-          <a className='What' href="">WHAT ?</a>
-          <a className='newGame' href="">New Game</a>
+         <div className='What'><a  href="">WHAT ?</a></div> 
+         <div className='newGame'><a  href="">New Game</a></div>
       </nav>
       <h1>HOT or COLD</h1>    
     </header>);
