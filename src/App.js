@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './components/header';
 import Answer from './components/answer';
+import Guess from './components/guess';
 
 
 class App extends Component {
@@ -11,6 +12,7 @@ class App extends Component {
       <div className="App">
         <Header />
         <Answer />
+        <Guess />
       </div>
     );
   }
