@@ -6,6 +6,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #1f253d;
+  height: 96%;
+  width: 98%;
+  text-align: center;
+}
+
+html {
+  background-color: #394264;
 }
 
 code {
